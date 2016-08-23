@@ -32,6 +32,9 @@ sub new {
 	# Serial number.
 	$self->{'serial_number'} = undef;
 
+	# TimeZone.
+	$self->{'timezone'} = 'Europe/Prague';
+
 	# UID counter.
 	$self->{'uid_counter'} = 0;
 
@@ -64,7 +67,8 @@ sub create_uid {
 	my ($self, $prefix) = @_;
 	my $uid = $prefix;
 	$uid .= '.'.$PID;
-	$uid .= '.'.DateTime::HiRes->now->set_time_zone('Europe/Prague')->strftime('%Y%m%d%H%M%S%3N');
+	$uid .= '.'.DateTime::HiRes->now->set_time_zone($self->{'timezone'})
+		->strftime('%Y%m%d%H%M%S%3N');
 	$self->{'uid_counter'}++;
 	$uid .= '.'.$self->{'uid_counter'};
 	return $uid;
