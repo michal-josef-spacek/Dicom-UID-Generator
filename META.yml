@@ -18,6 +18,7 @@ meta-spec:
 name: Dicom-UID-Generator
 no_index:
   directory:
+    - examples
     - inc
     - t
     - xt

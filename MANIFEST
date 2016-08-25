@@ -1,4 +1,5 @@
 Changes
+examples/ex1.pl
 Generator.pm
 inc/Module/Install.pm
 inc/Module/Install/AuthorRequires.pm
