@@ -18,6 +18,10 @@ license 'bsd';
 name 'Dicom-UID-Generator';
 readme_from 'Generator.pm';
 recursive_author_tests('xt');
+requires 'Class::Utils' => 0.07;
+requires 'DateTime::HiRes' => 0;
+requires 'English' => 0;
+requires 'Readonly' => 0;
 requires 'perl' => '5.8.0';
 resources 'bugtracker' => 'https://rt.cpan.org/Public/Dist/Display.html'.
 	'?Name=Dicom-UID-Generator';
