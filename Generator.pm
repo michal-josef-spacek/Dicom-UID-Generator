@@ -1,16 +1,13 @@
 package Dicom::UID::Generator;
 
-# Pragmas.
 use strict;
 use warnings;
 
-# Modules.
 use Class::Utils qw(set_params);
 use DateTime::HiRes;
 use English;
 use Readonly;
 
-# Version.
 our $VERSION = 0.02;
 
 # Constants.
@@ -184,11 +181,9 @@ Dicom::UID::Generator - DICOM UID generator.
 
 =head1 EXAMPLE
 
- # Pragmas.
  use strict;
  use warnings;
 
- # Modules.
  use Dicom::UID::Generator;
 
  # Object.
