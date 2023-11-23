@@ -181,6 +181,8 @@ Dicom::UID::Generator - DICOM UID generator.
 
 =head1 EXAMPLE
 
+=for comment filename=gen_uid_numbers.pl
+
  use strict;
  use warnings;
 
