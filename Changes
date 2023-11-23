@@ -1,5 +1,6 @@
 0.02
  - Fix minimal Perl version string.
+ - Fix use lib '.' in Makefile.PL.
  - Improve LICENSE AND COPYRIGHT section in doc.
  - Update Module::Install to 1.21 version.
  - Update author github username.
