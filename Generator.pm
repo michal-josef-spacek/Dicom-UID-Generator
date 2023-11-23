@@ -108,6 +108,7 @@ Dicom::UID::Generator - DICOM UID generator.
 =head1 SYNOPSIS
 
  use Dicom::UID::Generator;
+
  my $obj = Dicom::UID::Generator->new(%params);
  my $uid = $obj->create_series_instance_uid;
  my $uid = $obj->create_sop_instance_uid;
