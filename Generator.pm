@@ -245,7 +245,7 @@ Install the Dicom modules.
 
 =head1 REPOSITORY
 
-L<https://github.com/tupinek/Dicom-UID-Generator>
+L<https://github.com/michal-josef-spacek/Dicom-UID-Generator>
 
 =head1 AUTHOR
 

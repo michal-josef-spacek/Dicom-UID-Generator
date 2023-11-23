@@ -25,8 +25,8 @@ requires 'English' => 0;
 requires 'Readonly' => 0;
 resources 'bugtracker' => 'https://rt.cpan.org/Public/Dist/Display.html'.
 	'?Name=Dicom-UID-Generator';
-resources 'homepage' => 'https://github.com/tupinek/Dicom-UID-Generator';
-resources 'repository' => 'git://github.com/tupinek/Dicom-UID-Generator';
+resources 'homepage' => 'https://github.com/michal-josef-spacek/Dicom-UID-Generator';
+resources 'repository' => 'git://github.com/michal-josef-spacek/Dicom-UID-Generator';
 test_requires 'Test::More' => 0;
 test_requires 'Test::NoWarnings' => 0;
 tests_recursive;
