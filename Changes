@@ -1,6 +1,7 @@
 0.02
  - Fix minimal Perl version string.
  - Update Module::Install to 1.21 version.
+ - Update author name.
 
 0.01 2016-08-25T11:24:37+02:00
  - First version.

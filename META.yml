@@ -1,7 +1,7 @@
 ---
 abstract: 'DICOM UID generator.'
 author:
-  - 'Michal Spacek <skim@cpan.org>'
+  - 'Michal Josef Spacek <skim@cpan.org>'
 build_requires:
   ExtUtils::MakeMaker: 6.59
   Test::More: 0
